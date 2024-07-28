@@ -1,0 +1,16 @@
+.secondrayButtonStyle {
+    cursor: pointer;
+    font-size:14px;
+    font-weight: 300;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 7px 24px;
+    border-radius: 100px;
+    border: 1px solid green;
+    color: green;
+  }
+
+  .secondrayButtonStyle:hover {
+  background-color: green;
+  color: white;
+  }

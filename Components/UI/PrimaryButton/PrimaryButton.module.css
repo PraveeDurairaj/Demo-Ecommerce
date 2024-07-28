@@ -1,0 +1,35 @@
+.primaryButtonStyle {
+    cursor: pointer;
+    font-size:14px;
+    font-weight: 400;
+    position: relative;
+    background-color: green!important ;
+    overflow: hidden;
+    padding: 7px 24px;
+    border-radius: 100px;
+    border: none;
+  }
+  .primaryButtonStyle{
+  .innerText {
+    z-index: 10;
+  }&:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+    z-index: 100;
+  }
+  }
+  .primaryButtonStyle:hover {
+    &:after {
+      left: 120%;
+      transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+  }

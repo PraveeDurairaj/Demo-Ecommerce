@@ -1,0 +1,12 @@
+@media screen and (min-width:1200px) {
+    .imageBoxRow .imageBox:nth-child(even){
+        margin-top: 50px;
+        }
+}
+
+@media screen and (max-width:767px) {
+    .imageBoxRow{
+       row-gap: 20px;
+       justify-content: center;
+    }
+}
