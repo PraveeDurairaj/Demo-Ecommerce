@@ -1,0 +1,89 @@
+.adminListItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 5px;
+}
+
+.adminHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding: 20px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100vh;
+}
+
+.iconBox {
+    width: 20px;
+    height: 20px;
+}
+
+/* .adminMainContainer{
+    display: flex;
+} */
+.mobileHeader {
+    display: none;
+}
+.navListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width:991px) {
+    .adminHeaderContainer {
+        min-height: 50px !important;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+        padding: 10px;
+        height: unset !important;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+
+    }
+
+    .toggleIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mobileHeader {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .navShow {
+        display: flex !important;
+        flex-direction: column;
+        gap: 5px;
+        align-items: start;
+    }
+    .marginBottom{
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width:575px) {
+    .navShow {
+        align-items: stretch;
+    }
+    .marginBottom{
+        margin-bottom: 60px;
+    }
+
+}

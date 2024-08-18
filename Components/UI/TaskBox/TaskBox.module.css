@@ -62,14 +62,14 @@
 }
 
 .inprocessBox{
-    background: linear-gradient(67deg, rgb(218 206 108) 0%, rgb(225 226 220) 100%);
+    background: linear-gradient(67deg, rgb(239 0 77) 0%, rgb(226 220 221) 100%);
 }
 
 .doneHeader{
  color: rgb(34 173 50);
 }
 .inprocessHeader{
-    color: rgb(170 173 34);
+    color: rgb(189 34 55);
 }
 
 .defaultHeader{
@@ -80,7 +80,7 @@
     color: #78c973;
 }
 .inprocessListItem{
-    color: #c9c673;
+    color: #c97373;
 }
 .defaultListItem{
     color: #c973c4;
@@ -94,6 +94,7 @@
 } */
  @media screen and (max-width:767px){
     .taskBox {
-       width: 270px;
+       width: 100%;
+       margin: auto;
     }
  }

@@ -8,6 +8,7 @@ import FestivalSale from "@/Components/FestivalSale/FestivalSale";
 import Admin from "@/Components/Admin/Admin";
 import weekly from '../Helper/WeeklyPlan.json';
 import FoodPlan from "@/Components/FoodPlan.js/FoodPlan";
+import AdminHeader from "@/Components/AdminHeader/AdminHeader";
 
 export default function Home() {
   const [week1,week2] = weekly ;
@@ -38,10 +39,9 @@ export default function Home() {
         <FestivalSale/>
         <Product /> */}
         <div>
-          <Admin planData={week1}/>
-          {/* <Admin planData={week1}/> */}
-
-        <FoodPlan/>
+          <AdminHeader />
+          
+        {/* <FoodPlan/> */}
         </div>
       </main>
     </>

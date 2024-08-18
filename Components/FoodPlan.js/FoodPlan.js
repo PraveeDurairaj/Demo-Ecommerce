@@ -14,7 +14,7 @@ const FoodPlan = () => {
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     return (
         <div >
-            <Container>
+            <Container fluid>
                 <div className={cx(s.FoodHeaderContanier, 'foodtabContainer', s.bg)}>
                     <h2 className={s.foodPlanHeader}>August <span>, 2024</span></h2>
                     <Tabs
