@@ -6,7 +6,7 @@ import Product from "@/Components/Product/Product";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FestivalSale from "@/Components/FestivalSale/FestivalSale";
 import Admin from "@/Components/Admin/Admin";
-import weekly from '../Helper/weeklyPlan';
+import weekly from '../Helper/WeeklyPlan.json';
 import FoodPlan from "@/Components/FoodPlan.js/FoodPlan";
 
 export default function Home() {
