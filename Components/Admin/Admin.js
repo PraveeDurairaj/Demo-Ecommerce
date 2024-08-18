@@ -3,7 +3,6 @@ import Table from 'react-bootstrap/Table';
 import s from './Admin.module.css'
 import { Container } from 'react-bootstrap';
 import TaskBox from '../UI/TaskBox/TaskBox';
-import weekly from '../../Helper/weeklyPlan';
 
 function Admin({planData}) {
 
