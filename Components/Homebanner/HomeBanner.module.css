@@ -1,9 +1,6 @@
-.contact_btn{
-    border: 1px solid red;
-    padding: 10px 20px;
-}
+
 .banner_bg{
-    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)) ,url('../public/Assets/pexels-quintingellar-696205.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)) ,url('../../public/Assets/pexels-quintingellar-696205.jpg');
     background-size:100% 100%;
     background-repeat: no-repeat;
 }

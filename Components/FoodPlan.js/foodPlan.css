@@ -1,0 +1,30 @@
+/* foodPlan tab overide start */
+.foodtabContainer .nav-link.active .dateBox,.foodtabContainer .nav-link.active{
+    color:var(--commonWhiteColor) ;
+    background-color: var(--primary);
+   border: none !important;
+   }
+   .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: transparent !important;
+   }
+    .foodtabContainer .nav-link{
+     padding: 0 !important;
+     width: 100%;
+     border: 0 !important;
+     border-radius: 0 !important;
+   }
+   .foodtabContainer .nav-tabs{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(6,100px);
+    overflow: auto;
+    border: 0 !important;
+    overflow-y: hidden;
+    min-height: 70px;
+    margin-bottom: 20px
+   }
+    .foodtabContainer .nav-link:focus-visible{
+     box-shadow: none !important;
+   
+   }
+   /* foodPlan tab overide end */

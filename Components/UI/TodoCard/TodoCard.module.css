@@ -1,0 +1,88 @@
+.todoBox {
+    background: rgba( 255, 255, 255, 0.08 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 100%;
+}
+.todoBox::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -40px;
+    right: -30px;
+    z-index: -1;
+}
+.setCount{
+    background-color: black;
+    border-radius: 100px;
+    padding: 0px 10px;
+    font-size: 9px;
+    line-height: normal;
+    display: flex;
+    color:var(--commonWhiteColor);
+    justify-content: center;
+    align-items: center;
+}
+.listItem{
+    display: flex;
+    gap: 5px;
+    padding: 3px 3px 3px 10px;
+    border-radius: 17px;
+    font-size: 14px;
+    list-style: none;
+    background: rgba( 255, 255, 255, 0.10 );
+    backdrop-filter: blur( 20px );
+    color: var(--commonGrayColor);
+}
+.taskList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.calColor{
+    background-color: var(--primary);
+}
+.total{
+    position: absolute;
+    bottom: 3px;
+    right: 6px;
+    font-size: 14px;
+}
+.total::after{
+    content: '';
+    position: absolute;
+    width: 57px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: var(--primary);
+    right: -8px;
+    bottom: -27px;
+    z-index: -1;
+}
+.todo::after{
+    background-color: rgb(15, 60, 222);
+}
+.inProcess::after{
+    background-color: rgb(222, 15, 195);
+}
+.done::after{
+    background-color: var(--primary);
+}
+.faildTask{
+    background-color: red;
+    color: var(commonBlackColor);
+}
+.todoHeader{
+    margin-bottom: 10px !important;
+}

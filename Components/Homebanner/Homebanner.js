@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container } from 'react-bootstrap'
 import cx from 'classnames';
-import s from '../../styles/HomeBanner.module.css'
+import s from './HomeBanner.module.css'
 import PrimaryButton from '../UI/PrimaryButton/PrimaryButton';
 
 const Homebanner = () => {

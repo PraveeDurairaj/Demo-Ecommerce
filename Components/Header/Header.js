@@ -1,15 +1,37 @@
 import React from 'react'
 import { useState } from 'react';
+import cx from 'classnames';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Homebanner from '../Homebanner/Homebanner';
-import cx from 'classnames';
-import s from '../../styles/HomeBanner.module.css'
+import s from '../Homebanner/HomeBanner.module.css'
 
 
-const navData = ['home', 'Product', 'Reviews']
+// const navData = ['home', 'Product', 'Reviews','admin']
+const navData = [
+    {
+        id: 1,
+        text: 'home',
+        link: ''
+    },
+    {
+        id: 2,
+        text: 'Product',
+        link: ''
+    },
+    {
+        id: 3,
+        text: 'Reviews',
+        link: ''
+    },
+    {
+        id: 4,
+        text: 'admin',
+        link: '#admin'
+    },
+]
 const Header = () => {
     const [show, setShow] = useState(false);
     return (
@@ -32,11 +54,10 @@ const Header = () => {
                         </Offcanvas>
                     </Navbar.Collapse>
                     <Nav className={s.navContainer}>
-
                         {
-                            navData?.map((data, index) => {
+                            navData?.map((data) => {
                                 return (
-                                    <Nav.Link href="#home" className={cx('text-white font-thin', s.navItem)} key={index}>{data}</Nav.Link>
+                                    <Nav.Link href={data?.link} className={cx('text-white font-thin', s.navItem)} key={data?.id}>{data?.text}</Nav.Link>
                                 )
                             })
                         }

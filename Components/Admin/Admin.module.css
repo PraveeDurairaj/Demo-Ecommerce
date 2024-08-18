@@ -1,0 +1,19 @@
+.taskBoxContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.workoutMainContainer{
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 15px
+}
+.workOutPlanHeader{
+    color: var(--commonWhiteColor);
+    padding: 10px;
+    margin: 0 !important;
+}
+.taskHeading{
+    color: var(--commonWhiteColor) !important;
+}

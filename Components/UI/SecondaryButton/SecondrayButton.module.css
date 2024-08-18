@@ -6,11 +6,11 @@
     overflow: hidden;
     padding: 7px 24px;
     border-radius: 100px;
-    border: 1px solid green;
-    color: green;
+    border: 1px solid var(--primary);
+    color: var(--primary);
   }
 
   .secondrayButtonStyle:hover {
-  background-color: green;
+  background-color: var(--primary);
   color: white;
   }

@@ -1,9 +1,10 @@
+
 .primaryButtonStyle {
     cursor: pointer;
     font-size:14px;
     font-weight: 400;
     position: relative;
-    background-color: green!important ;
+    background-color: var(--primary)!important ;
     overflow: hidden;
     padding: 7px 24px;
     border-radius: 100px;
