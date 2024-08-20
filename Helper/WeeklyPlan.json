@@ -34,7 +34,7 @@
                     "set": "3 X 10"
                 }
             ],
-            "status": "InProcess"
+            "status": "done"
         },
         {
             "id": 2,
@@ -57,7 +57,7 @@
                     "set": "3 X 10"
                 }
             ],
-            "status": "Todo"
+            "status": "done"
         },
         {
             "id": 3,
@@ -80,7 +80,7 @@
                     "set": "3 X 10"
                 }
             ],
-            "status": "Todo"
+            "status": "InProcess"
         },
         {
             "id": 4,
