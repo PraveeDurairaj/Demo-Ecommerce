@@ -85,7 +85,7 @@
             {
                 "id":1,
                 "Lanch":"Morning Food",
-                "status":"Todo",
+                "status":"Done",
                 "foodListItem":[
                     {
                         "id":1,
@@ -116,7 +116,7 @@
             {
                 "id":2,
                 "Lanch":"AfterNoon Food",
-                "status":"Todo",
+                "status":"Done",
                 "foodListItem":[
                     {
                         "id":1,
@@ -135,7 +135,7 @@
             {
                 "id":3,
                 "Lanch":"Night Food",
-                "status":"Todo",
+                "status":"Done",
                 "foodListItem":[
                     {
                         "id":1,
@@ -147,7 +147,22 @@
                         "id":2,
                         "item":"Egg",
                         "quntity":"x2",
-                        "colories":156
+                        "colories":156,
+                        "failed":true
+                    },
+                    {
+                        "id":3,
+                        "item":"Rice",
+                        "quntity":"100g",
+                        "colories":156,
+                        "added":true
+                    },
+                    {
+                        "id":4,
+                        "item":"Banana",
+                        "quntity":"x1",
+                        "colories":80,
+                        "added":true
                     }
                 ]
             }
@@ -216,14 +231,20 @@
                     {
                         "id":1,
                         "item":"Banana",
+                        "quntity":"x1",
+                        "colories":100
+                    },
+                    {
+                        "id":2,
+                        "item":"Rice",
                         "quntity":"250g",
                         "colories":325
                     },
                     {
-                        "id":2,
-                        "item":"Milk",
-                        "quntity":"250ml",
-                        "colories":165
+                        "id":3,
+                        "item":"Peanuts",
+                        "quntity":"25g",
+                        "colories":142
                     }
                 ]
             }
@@ -232,12 +253,154 @@
     {
         "id": 4,
         "day": "Thursday",
-        "date": 22
+        "date": 22,
+        "foodList":[
+            {
+                "id":1,
+                "Lanch":"Morning Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Banana",
+                        "quntity":"x1",
+                        "colories":100
+                    },
+                    {
+                        "id":2,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":3,
+                        "item":"Egg",
+                        "quntity":"x2",
+                        "colories":156
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "Lanch":"AfterNoon Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":2,
+                        "item":"Egg",
+                        "quntity":"x2",
+                        "colories":156
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "Lanch":"Night Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":2,
+                        "item":"Banana",
+                        "quntity":"x2",
+                        "colories":180
+                    },
+                    {
+                        "id":3,
+                        "item":"Peanuts",
+                        "quntity":"25g",
+                        "colories":142
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 5,
         "day": "Friday",
-        "date": 23
+        "date": 23,
+        "foodList":[
+            {
+                "id":1,
+                "Lanch":"Morning Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Banana",
+                        "quntity":"x1",
+                        "colories":100
+                    },
+                    {
+                        "id":2,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":3,
+                        "item":"Potato",
+                        "quntity":"125g",
+                        "colories":125
+                    },
+                    {
+                        "id":4,
+                        "item":"Peanuts",
+                        "quntity":"25g",
+                        "colories":142
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "Lanch":"AfterNoon Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":2,
+                        "item":"potato",
+                        "quntity":"125g",
+                        "colories":125
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "Lanch":"Night Food",
+                "status":"Todo",
+                "foodListItem":[
+                    {
+                        "id":1,
+                        "item":"Rice",
+                        "quntity":"250g",
+                        "colories":325
+                    },
+                    {
+                        "id":2,
+                        "item":"Egg",
+                        "quntity":"x2",
+                        "colories":156
+                    }
+                ]
+            }
+        ]
     },
     {
         "id": 6,

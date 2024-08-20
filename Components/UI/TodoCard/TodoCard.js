@@ -11,8 +11,7 @@ const TodoCard = ({ foodData }) => {
     }
 
   });
-  console.log(foodData?.total)
-
+ 
  return (
     <div className={cx(s.todoBox, [foodData?.status == 'InProcess' ? s.inProcess : foodData?.status == 'Done' ? s.done : s.todo])}>
       <p className={s.todoHeader}>{foodData?.Lanch}</p>
@@ -20,7 +19,7 @@ const TodoCard = ({ foodData }) => {
         {
           foodData?.foodListItem?.map((data) => {
             return (
-              <li className={cx(s.listItem, [data?.failed && s.faildTask])}>
+              <li className={cx(s.listItem, [data?.failed && s.faildTask], [data?.added && s.addedTask])} key={data?.id}>
                 <span>{data?.item}</span>
                 <span className={s.setCount}>{data?.quntity}</span>
                 <span className={cx(s.setCount, s.calColor)}>{data?.colories}cal</span>

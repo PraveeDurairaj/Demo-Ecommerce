@@ -81,7 +81,11 @@
 }
 .faildTask{
     background-color: red;
-    color: var(commonBlackColor);
+    color: var(--commonBlackColor);
+}
+.addedTask{
+    background-color: rgb(85 217 59);
+    color: var(--commonBlackColor);
 }
 .todoHeader{
     margin-bottom: 10px !important;

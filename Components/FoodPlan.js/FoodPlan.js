@@ -10,7 +10,8 @@ import s from './FoodPlan.module.css'
 
 const FoodPlan = () => {
     const day = new Date();
-    const getDay = 1
+    let total = 0
+    const getDay = day.getDay()
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     return (
         <div >
