@@ -5,9 +5,6 @@ import ExploreProduct from "@/Components/ExploreProduct/ExploreProduct";
 import Product from "@/Components/Product/Product";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FestivalSale from "@/Components/FestivalSale/FestivalSale";
-import Admin from "@/Components/Admin/Admin";
-import weekly from '../Helper/WeeklyPlan.json';
-import FoodPlan from "@/Components/FoodPlan.js/FoodPlan";
 import AdminHeader from "@/Components/AdminHeader/AdminHeader";
 
 export default function Home() {
@@ -38,11 +35,7 @@ export default function Home() {
         <ExploreProduct />
         <FestivalSale/>
         <Product /> */}
-        <div>
           <AdminHeader />
-          
-        {/* <FoodPlan/> */}
-        </div>
       </main>
     </>
   );
