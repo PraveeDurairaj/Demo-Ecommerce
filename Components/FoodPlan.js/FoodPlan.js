@@ -5,10 +5,9 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import DateTabCard from '../UI/DateTabCard/DateTabCard';
 import TodoCard from '../UI/TodoCard/TodoCard';
-import foodPlan from '../../Helper/FoodPlan.json'
 import s from './FoodPlan.module.css'
 
-const FoodPlan = () => {
+const FoodPlan = ({foodPlan,date}) => {
     const day = new Date();
     let total = 0
     const getDay = day.getDay()
@@ -17,7 +16,7 @@ const FoodPlan = () => {
         <div >
             <Container fluid>
                 <div className={cx(s.FoodHeaderContanier, 'foodtabContainer', s.bg)}>
-                    <h2 className={s.foodPlanHeader}>August <span>, 2024</span></h2>
+                    <h2 className={s.foodPlanHeader}>{date}</h2>
                     <Tabs
                         defaultActiveKey={daysOfWeek[getDay >= 1 && getDay]}
                         id="uncontrolled-tab-example"

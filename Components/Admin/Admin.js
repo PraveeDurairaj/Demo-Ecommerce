@@ -24,7 +24,7 @@ function Admin({ planData }) {
                         </Accordion.Item>
                     </Accordion></Col>
                     <Col xs={12} sm={12}  md={4} lg={4}> <Accordion defaultActiveKey="0">
-                        <Accordion.Item eventKey="0">
+                        <Accordion.Item eventKey="3">
                             <Accordion.Header>InProcess</Accordion.Header>
                             <Accordion.Body>
                             <div className={s.taskBoxContainer}>
