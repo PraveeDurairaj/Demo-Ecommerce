@@ -1,15 +1,28 @@
 import React from 'react'
 import AdminHeader from '@/Components/AdminHeader/AdminHeader'
 import Admin from '@/Components/Admin/Admin';
-import weekly from '../Helper/WeeklyPlan.json';
+import client from "../config/contentful"
 
+export const getStaticProps = async () => {
+    const response = await client.getEntries({ content_type: 'workoutPlanTable' })
+    return {
+      props: {
+        workoutPlanTable: response.items
+      }
+    }
+  }
+const Manage_food = ({workoutPlanTable}) => {
 
-const Manage_food = () => {
-    const [week1, week2] = weekly;
     return (
         <div>
             <AdminHeader>
-                <Admin planData={week1} />
+                {
+                   workoutPlanTable?.map((data)=>{
+                    return(
+                        <Admin planData={data?.fields?.dayWorkout[0]} /> 
+                    )
+                   }) 
+                }
             </AdminHeader>
         </div>
     )
