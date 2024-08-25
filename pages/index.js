@@ -8,7 +8,7 @@ import FestivalSale from "@/Components/FestivalSale/FestivalSale";
 import AdminHeader from "@/Components/AdminHeader/AdminHeader";
 
 export default function Home() {
-  const [week1,week2] = weekly ;
+
   // const myRef = useRef();
   // const [visible, setVisble] = useState(false)
 
