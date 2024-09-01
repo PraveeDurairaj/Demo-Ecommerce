@@ -17,6 +17,7 @@ const Manage_food = ({foodPlanTable}) => {
   return (
     <div>
       <AdminHeader>
+      <h1 className='AdminHeading marginLeft12'>Manage Food</h1>
         {
           foodPlanTable?.map((data)=>{
             return(

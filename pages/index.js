@@ -6,6 +6,8 @@ import Product from "@/Components/Product/Product";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FestivalSale from "@/Components/FestivalSale/FestivalSale";
 import AdminHeader from "@/Components/AdminHeader/AdminHeader";
+import Dashboard from "@/Components/Dashboard/Dashboard";
+
 
 export default function Home() {
 
@@ -35,7 +37,12 @@ export default function Home() {
         <ExploreProduct />
         <FestivalSale/>
         <Product /> */}
-          <AdminHeader />
+        <AdminHeader>
+        
+          <Dashboard/>
+
+        </AdminHeader>
+        
       </main>
     </>
   );

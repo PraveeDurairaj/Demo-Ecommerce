@@ -35,6 +35,10 @@ p{
   line-height: 50px;
   font-weight: 400;
 }
+.AdminHeading{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
 .text-white{
   color: var(--commonWhiteColor);
  }
@@ -53,8 +57,14 @@ p{
 .bottom50{
   margin-bottom: 50px;
 }
+.bottom20{
+  margin-bottom: 20px;
+}
 .noPadding{
   padding: 0 !important;
+}
+.marginLeft12{
+  margin-left: 12px;
 }
 /* spaceing end */
 

@@ -28,10 +28,12 @@ const AdminHeader = ({ children }) => {
                             <span className={s.toggleIcon} onClick={handleClick}><Image src={menuIcon} alt='menuIcon' width={30} height={30}></Image></span>
                         </div>
                         <div className={cx(s.hidden, s.navListContainer, [show && s.navShow])}>
-                            <div className={s.adminListItem}>
-                                <Image src={dashboard} width={20} height={20}></Image>
-                                <span> Dasbord</span>
-                            </div>
+                            <Link href='/'>
+                                <div className={s.adminListItem}>
+                                    <Image src={dashboard} width={20} height={20}></Image>
+                                    <span> Dasbord</span>
+                                </div>
+                            </Link>
                             <Link href='/manage_food'>
                                 <div className={s.adminListItem}>
                                     <Image src={food} width={20} height={20}></Image>

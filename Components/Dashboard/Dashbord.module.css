@@ -1,0 +1,39 @@
+.dashbordCard{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(59, 59, 59);
+     background-image: url("https://img.freepik.com/free-vector/abstract-big-point-dark-backdrop-banner-presentation_1017-44777.jpg");
+     /* background-image: url("https://img.freepik.com/free-vector/gradient-background-green-modern-designs_343694-2067.jpg"); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+.dashbordCardContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:991px) {
+    .dashbordCardContainer{
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .dashbordCard{
+        min-width: 182px;
+    }
+}
+@media screen and (max-width:767px) {
+    .dashbordCardContainer{
+        gap: 10px;
+    }
+    .dashbordCard{
+        min-width: 182px;
+        flex: 1;
+    }
+}
