@@ -67,8 +67,8 @@ const Dashboard = () => {
         createData('August 31', 1, 1386, 1795),
         createData('September 01', 2, 1386,1750),
         createData('September 02', 3, 1386,1840),
-        createData('September 03', 3, 1386,1982),
-        createData('September 04', 3, 1386,1847),
+        createData('September 03', 4, 1386,1982),
+        createData('September 04', 5, 1386,1847),
     ];
     return (
         <Container>
