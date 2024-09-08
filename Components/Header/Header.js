@@ -48,7 +48,14 @@ const Header = () => {
                             <Offcanvas.Body>
                                 <Nav className="me-auto">
                                     <Nav.Link href="#home">Home</Nav.Link>
-                                    <Nav.Link href="#link">Link</Nav.Link>
+                                    {
+                            navData?.map((data) => {
+                                return (
+                                    <Nav.Link href={data?.link} className={s.mobileNavItem} key={data?.id}>{data?.text}</Nav.Link>
+                                )
+                            })
+                        }
+                              
                                 </Nav>
                             </Offcanvas.Body>
                         </Offcanvas>

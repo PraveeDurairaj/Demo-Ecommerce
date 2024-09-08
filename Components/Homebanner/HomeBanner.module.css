@@ -14,7 +14,10 @@
 .navItem:hover{
     border-bottom: 2px solid green !important;
 }
-
+.mobileNavItem{
+    color: green !important;
+    border-bottom: 1px solid green !important;
+}
 .bannerContainer{
     display: flex;
     flex-direction: column;
