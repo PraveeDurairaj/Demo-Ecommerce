@@ -6,10 +6,10 @@ import cx from 'classnames'
 const MenuItemCard = ({ image }) => {
   const [skeleton, setSkeleton] = useState(true)
 
-  useEffect(() => {
-    window.addEventListener('load', () => setSkeleton(false))
-    setSkeleton(false)
-  })
+  // useEffect(() => {
+  //   window.addEventListener('load', () => setSkeleton(false))
+  //   setSkeleton(false)
+  // })
   return (
     
       skeleton ? <div className={cx(s.productMenuImage,'skeleton',s.menuImageConatiner)}></div>:

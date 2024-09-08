@@ -8,6 +8,7 @@ const productdata = [
   {
     id:1,
     name:'Product Name',
+    info:"",
     img:''
   },
   {

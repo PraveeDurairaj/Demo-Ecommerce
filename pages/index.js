@@ -5,8 +5,7 @@ import ExploreProduct from "@/Components/ExploreProduct/ExploreProduct";
 import Product from "@/Components/Product/Product";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FestivalSale from "@/Components/FestivalSale/FestivalSale";
-import AdminHeader from "@/Components/AdminHeader/AdminHeader";
-import Dashboard from "@/Components/Dashboard/Dashboard";
+
 
 
 export default function Home() {
@@ -33,16 +32,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <Header />
+        <Header />
         <ExploreProduct />
-        <FestivalSale/>
-        <Product /> */}
-        <AdminHeader>
-        
-          <Dashboard/>
-
-        </AdminHeader>
-        
+        {/* <FestivalSale/> */}
+        <Product />
       </main>
     </>
   );

@@ -29,7 +29,7 @@ const navData = [
     {
         id: 4,
         text: 'admin',
-        link: '#admin'
+        link: '/dashboard'
     },
 ]
 const Header = () => {

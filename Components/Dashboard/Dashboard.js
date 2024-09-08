@@ -32,7 +32,7 @@ const dashboardData = [
     {
         "id": 4,
         "text": "Consumed Colories",
-        "no": 1800,
+        "no": 2000,
     },
 ]
 const Dashboard = () => {
@@ -65,10 +65,14 @@ const Dashboard = () => {
 
     const rows = [
         createData('August 31', 1, 1386, 1795),
-        createData('September 01', 2, 1386,1750),
-        createData('September 02', 3, 1386,1840),
-        createData('September 03', 4, 1386,1982),
-        createData('September 04', 5, 1386,1847),
+        createData('September 01', 2, 1386, 1750),
+        createData('September 02', 3, 1386, 1840),
+        createData('September 03', 4, 1386, 1982),
+        createData('September 04', 5, 1386, 1847),
+        createData('September 05', 6, 1386, 1970),
+        createData('September 06', 7, 1386, 1930),
+        createData('September 07', 8, 1386, 1537),
+        createData('September 08', 9, 1386, 1720),
     ];
     return (
         <Container>
@@ -87,7 +91,7 @@ const Dashboard = () => {
                         })}
                 </div>
             </div>
-            <div>
+            <div className={s.tableContaier}>
                 <TableContainer component={Paper}>
                     <Table sx={{ minWidth: 700 }} aria-label="customized table">
                         <TableHead>
